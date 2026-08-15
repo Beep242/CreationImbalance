@@ -1,0 +1,8 @@
+label,eta_final,N_matter_final,N_antimatter_final,N_dark_final,dark_survival_fraction,outcome
+"no_asymmetry (Model B, R=1)",0.0,61.34355350977797,61.34355350977797,0.6613997114313911,0.006613997114313911,no_asymmetry
+"matter_dominated (R=5000, large reservoir, long run)",0.9994449590637797,670.8380768399222,0.18622297779870456,-8.895507131041618e-33,0.0,matter_dominated
+"antimatter_dominated (R=1/5000, large reservoir, long run)",-0.9994449590637797,0.1862229777987047,670.8380768399221,-8.895507834065395e-33,0.0,antimatter_dominated
+"complete_annihilation (Model A, high sigma_ann, symmetric)",0.0,0.022200113842442568,0.022200113842442568,50.0,1.0,complete_annihilation
+"persistent_intermediate_asymmetry (Model B, R=4)",0.4458092776006383,90.87158065455105,34.83183273805773,0.6613997114303911,0.006613997114303911,persistent_intermediate_asymmetry
+"dark_matter_survives_transition (survival=1, weak coupling)",0.0,30.314660918111944,30.314660918111944,83.14787732218352,0.8314787732218352,no_asymmetry
+dark_matter_disappears_at_transition (survival=0),0.0,26.30891757001166,26.30891757001166,0.0,0.0,no_asymmetry

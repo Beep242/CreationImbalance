@@ -1,0 +1,24 @@
+# Model B, R = 4 (sigma_DM_matter / sigma_DM_antimatter): the headline
+# "differs from baseline" run used throughout docs/results.md (Experiment 4,
+# and as the "all Sakharov conditions satisfied" baseline for the ablation
+# in Experiments 9-12). Loadable via
+# src.simulation.config_loader.load_model_b_config.
+
+pre_transition_density: 100.0
+transition_type: bounce
+transition_energy_scale: 1.0
+transition_duration: 0.5
+dark_sector_survival_fraction: 1.0
+entropy_production: 1.0
+visible_sector_seed_number: 100.0
+coupling_to_matter: 0.08
+coupling_to_antimatter: 0.02
+coupling_to_visible: 0.0
+sigma_ann: 0.02
+sigma_DD: 0.001
+baryon_number_violation_enabled: true
+cp_violation_enabled: true
+thermal_equilibrium: false
+expansion_power: 2.0
+t1: 50.0
+n_eval: 400

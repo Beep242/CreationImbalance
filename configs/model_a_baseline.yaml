@@ -1,0 +1,12 @@
+# Model A (standard baseline / control). Loadable via
+# src.simulation.config_loader.load_model_a_config -- keys map directly to
+# build_model_a() keyword arguments in src/simulation/model_a.py.
+
+N_matter0: 50.0
+N_antimatter0: 50.0
+N_dark0: 50.0
+sigma_ann: 0.02
+sigma_DD: 0.0
+t1: 50.0
+n_eval: 400
+seed_asymmetry: 0.0

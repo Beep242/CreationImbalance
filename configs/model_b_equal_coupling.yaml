@@ -1,0 +1,22 @@
+# Model B, R = 1 (equal coupling to matter and antimatter): the control
+# showing equal coupling alone does not produce an asymmetry (Experiment 3).
+# Loadable via src.simulation.config_loader.load_model_b_config.
+
+pre_transition_density: 100.0
+transition_type: generic_initial_condition_transition
+transition_energy_scale: 1.0
+transition_duration: 0.5
+dark_sector_survival_fraction: 1.0
+entropy_production: 1.0
+visible_sector_seed_number: 100.0
+coupling_to_matter: 0.05
+coupling_to_antimatter: 0.05
+coupling_to_visible: 0.0
+sigma_ann: 0.02
+sigma_DD: 0.001
+baryon_number_violation_enabled: true
+cp_violation_enabled: true
+thermal_equilibrium: false
+expansion_power: 2.0
+t1: 50.0
+n_eval: 400

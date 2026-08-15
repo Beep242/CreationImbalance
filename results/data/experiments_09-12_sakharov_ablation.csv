@@ -1,0 +1,6 @@
+condition_tested,eta_final
+"baseline (all 3 conditions satisfied, R=4)",0.4458092776006383
+CP violation OFF (R forced to 1),0.0
+baryon-number violation OFF,0.0
+full thermal equilibrium (washout),0.09013024044658369
+departure from equilibrium (freeze-out),0.4458092776006383
